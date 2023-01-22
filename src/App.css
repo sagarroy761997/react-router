@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-header, .App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.uldiv{
+  background-color: #f44336;
+  width: 100%;
+}
+.navlink{
+  text-decoration: none;
+  color: cornsilk;
 }
