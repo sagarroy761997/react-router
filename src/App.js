@@ -14,9 +14,10 @@ function App() {
     <div className="App">
       <div className='uldiv'>
       <ul>
-        <li><NavLink style={({isActive})=>{return {color: isActive? 'yellow' : 'teal' }}} className='navlink' to='/'>Home</NavLink></li>
-        <li><NavLink style={({isActive})=>{return {color: isActive? 'yellow' : 'teal' }}} className='navlink' to='/users'>Users </NavLink></li>
-        <li><NavLink style={({isActive})=>{return {color: isActive? 'yellow' : 'teal' }}} className='navlink' to='/about'>About </NavLink></li>
+        <li><NavLink  className='navlink' to='/'>Home</NavLink></li>
+        <li><NavLink  className='navlink' to='/users'>Users </NavLink></li>
+        <li><NavLink  className='navlink' to='/condition'> ConditionalRouting</NavLink></li>
+        <li><NavLink  className='navlink' to='/about'>About </NavLink></li>
       </ul>
       </div>
       <header className="App-header">
